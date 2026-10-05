@@ -1,0 +1,26 @@
+TRADE AVATA CHART — 0.5.2 COMPACT DESKTOP TRADE UPDATE
+
+STATUS: PASS
+
+Automated test suite: 37 / 37 passed
+JavaScript syntax validation: PASS
+Project integrity verifier: PASS
+Service-worker asset resolution: 37 / 37
+
+Requested update verified in source/tests:
+- Advanced Trade Avata layout preserved.
+- Zero-gap chart canvas preserved.
+- Desktop Buy / Risk% / Sell strip is tiny and centered.
+- Desktop quick trade can be hidden completely.
+- Advanced trade controls open as a desktop side drawer.
+- Mobile trading layout remains the approved mobile layout.
+- Quick hide/show-all indicator control added.
+- Indicator edit dropdown remains available.
+- Symbol click opens chart settings; market search remains separately available.
+- Symbol/indicator label modes support Full / Compact / shortened / hidden displays.
+- Time, Renko-time-source, Renko-pip and Range-pip interval categories added.
+- Any interval/brick option can be favorited to the top bar.
+- Owner-only AI toolbar entry preserved with existing abuse limits.
+
+LIVE-MONEY BOUNDARY:
+This package still uses the mock/demo broker adapter. Real cTrader execution, production VPS failover, production sandboxing and Firebase enforcement remain backend integration work and must be demo-tested before real-money use.

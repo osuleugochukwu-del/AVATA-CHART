@@ -1,0 +1,13 @@
+{
+  "name": "Trade Avata Chart",
+  "short_name": "TA Chart",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07111d",
+  "theme_color": "#07111d",
+  "description": "Lightweight professional charting and trading workspace.",
+  "icons": [
+    {"src":"./public/brand/trade-avata-logo.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

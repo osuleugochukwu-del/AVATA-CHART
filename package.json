@@ -1,0 +1,11 @@
+{
+  "name": "trade-avata-chart",
+  "version": "0.5.2-compact-desktop-trade",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "http-server -p 4173 -c-1 .",
+    "test": "node --test tests/*.test.js",
+    "verify": "node scripts/verify.mjs"
+  }
+}
